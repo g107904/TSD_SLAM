@@ -1,0 +1,37 @@
+LIBRARY swscale-3.dll
+EXPORTS
+sws_addVec              	@1
+sws_allocVec            	@2
+sws_alloc_context       	@3
+sws_cloneVec            	@4
+sws_context_class       	@5 DATA
+sws_convVec             	@6
+sws_convertPalette8ToPacked24	@7
+sws_convertPalette8ToPacked32	@8
+sws_freeContext         	@9
+sws_freeFilter          	@10
+sws_freeVec             	@11
+sws_getCachedContext    	@12
+sws_getCoefficients     	@13
+sws_getColorspaceDetails	@14
+sws_getConstVec         	@15
+sws_getContext          	@16
+sws_getDefaultFilter    	@17
+sws_getGaussianVec      	@18
+sws_getIdentityVec      	@19
+sws_get_class           	@20
+sws_init_context        	@21
+sws_isSupportedEndiannessConversion	@22
+sws_isSupportedInput    	@23
+sws_isSupportedOutput   	@24
+sws_normalizeVec        	@25
+sws_printVec2           	@26
+sws_rgb2rgb_init        	@27
+sws_scale               	@28
+sws_scaleVec            	@29
+sws_setColorspaceDetails	@30
+sws_shiftVec            	@31
+sws_subVec              	@32
+swscale_configuration   	@33
+swscale_license         	@34
+swscale_version         	@35
